@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+*.token
+*.key
+.DS_Store
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+original-zenodo-downloads/
+*.part

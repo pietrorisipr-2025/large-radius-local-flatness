@@ -1,0 +1,25 @@
+{
+  "record": "21268958",
+  "present_in_repo": 2,
+  "original_record_files": 4,
+  "source_file_sha256_and_zenodo_md5": "ALL_PASS",
+  "original_file_bytes_unmodified": true,
+  "release_bundle_sha256": "ebaa8e451091b94b3692de30c7612577b2aa5510c1b7a8800068a853641892a3",
+  "repo_starter_sha256": "ceef534b576b9fbe724ba2b35d73536c5f7bb215d7bb82a29833d5e2f8aa27b5",
+  "embedded_research_archives": [
+    {
+      "name": "V1055C_LARGE_RADIUS_LOCAL_FLATNESS_ZENODO_TECHNICAL_NOTE_CLEAN_PACKAGE.zip",
+      "files": 26,
+      "total_uncompressed_bytes": 2127093,
+      "crc": "PASS"
+    }
+  ],
+  "manifests": [],
+  "pdfs": [
+    {
+      "name": "V1055C_LARGE_RADIUS_LOCAL_FLATNESS_ZENODO_TECHNICAL_NOTE_CLEAN.pdf",
+      "pages": 5,
+      "page1_title_text": "Large-Radius Local Flatness Hypothesis: Observable Radius, Curvature Limits, and Horizon Chaining A conservative technical note / theoretical audit of the main geometric "
+    }
+  ]
+}

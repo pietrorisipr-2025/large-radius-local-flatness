@@ -1,0 +1,12 @@
+quantity,value,unit,note
+H0,67.4,km/s/Mpc,illustrative flat LCDM; no fit
+Omega_m,0.315,dimensionless,illustrative flat LCDM; no fit
+Omega_r,9.2e-05,dimensionless,illustrative flat LCDM; no fit
+Omega_Lambda,0.684908,dimensionless,illustrative flat LCDM; no fit
+Hubble radius c/H0,14.5073029916,Gly,illustrative flat LCDM; no fit
+Integrated age,13.7906925241,Gyr,illustrative flat LCDM; no fit
+CMB comoving distance z=1089.9,45.2194288186,Gly,illustrative flat LCDM; no fit
+Observable radius / particle horizon,46.133255413,Gly,illustrative flat LCDM; no fit
+Observable diameter,92.2665108259,Gly,illustrative flat LCDM; no fit
+Event horizon illustrative,16.6793504874,Gly,illustrative flat LCDM; no fit
+Horizon-chain one-dimensional union,184.533021652,Gly,illustrative flat LCDM; no fit

@@ -1,0 +1,20 @@
+{
+  "schema": "GitHub_Prepublication_Audit_v0.5",
+  "project": "large-radius-local-flatness",
+  "zenodo_record": "21268958",
+  "recommended_version": "V1055C",
+  "source_v0_4_scientific_files_preserved_byte_identical": true,
+  "publication_ready": null,
+  "ready_reason": "Human owner rights and exact source licenses unverified; human final content/AI approval outstanding",
+  "source_integrity_v0_4_inherited": "PASS",
+  "independent_science_replication": "NOT_PERFORMED",
+  "pdf_text_preflight_scanned": true,
+  "secret_regex_repo_source_no_hits": true,
+  "github_owner_existing_repo_name_available_last_checked": "2026-10-13",
+  "original_zenodo_license_fields_verified_live": false,
+  "sct_known_exception": null,
+  "3d_repro_limit": null,
+  "github_publication_operator_attestation": true,
+  "rights_verified_by_automated_tool": false,
+  "publication_status": "PUBLIC_GITHUB_MIRROR_OPERATOR_ATTESTED"
+}

@@ -1,0 +1,17 @@
+version,title,role,included_in_main_pdf
+V1024,Local Flatness Large Radius Prereg,Preregistered local flatness hypothesis and claim boundary,yes
+V1025,Geometric Local Flatness Derivation,Normal/Fermi coordinate derivation of O((L/R)^2),yes
+V1026,FLRW Curvature Radius Mapping,Mapping of Omega_k to curvature radius,yes
+V1027,Observables and Scale Hierarchy Tests,Observable/test matrix and scale hierarchy examples,yes
+V1028,Local Flatness arXiv-Style Synthesis Draft,First integrated manuscript-style synthesis,yes
+V1029,Scale Hierarchy Plots,Scale hierarchy visualization support,yes
+V1030,Observational Prior Registry,Registry of observational priors/no-fit boundary,yes
+V1031,Public Note Cleanup Integrated,Clean public note integration,yes
+V1032,Triple Audit and Recovery,Geometric and observational no-fit audits,yes
+V1033,Final Recovery and Next Branch,First-cycle recovery and next-branch freeze,yes
+V1034,Observable vs Total Universe Size Prereg,Observable/total distinction plus travel flatness threshold,yes
+V1035,Observable Radius and Horizon Definitions Audit,Hubble radius/particle/event/CMB/observable distinctions,yes
+V1036,Observable vs Total Size Lower Bound Scenarios,Conditional curvature/topology scenarios,yes
+V1037,Topology and Compactness Prereg,Curvature/topology/compactness separation,yes
+V1052,Big Bang Not Center and Observable Radius Calculation Audit,Big Bang not spatial center plus numeric H(z) calculation,yes
+V1054,Observable Horizon Chain and Navigation Light-Time Pointing Spec,Horizon chaining thought experiment; navigation part excluded from this PDF,cosmology_section_only

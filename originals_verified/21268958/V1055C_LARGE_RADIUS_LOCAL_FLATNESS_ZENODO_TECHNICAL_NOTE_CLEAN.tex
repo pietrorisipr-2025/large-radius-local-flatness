@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\setlist[itemize]{noitemsep,topsep=3pt}
+\setlist[enumerate]{noitemsep,topsep=3pt}
+\newcommand{\Gly}{\,\mathrm{Gly}}
+\newcommand{\Gyr}{\,\mathrm{Gyr}}
+\newcommand{\LCDM}{$\Lambda$CDM}
+\title{\textbf{Large-Radius Local Flatness Hypothesis: Observable Radius, Curvature Limits, and Horizon Chaining}\\
+\large A conservative technical note / theoretical audit of the main geometric roadmap}
+\author{Pietro Risi\\
+\small Independent researcher}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This note consolidates the main, non-navigation roadmap of the Large-Radius Local Flatness Hypothesis. The core statement is deliberately conservative: local spatial or spacetime measurements may be insensitive to global curvature when the local scale $L$ is much smaller than a curvature or horizon scale $R$, with leading geometric corrections of order $O((L/R)^2)$. The note separates local flatness, observational flatness, global flatness, topology, and total universe size. It also records a model-dependent flat-$\Lambda$CDM calculation of the observable radius, obtaining an illustrative particle-horizon scale of $46.13\Gly$ and observable diameter $92.27\Gly$ for Planck-like parameters. The Big Bang is explicitly rejected as a spatial center. The ``horizon chaining'' idea --- placing ideal observers near our observable boundary and considering their own observable spheres --- is retained as a useful conditional thought experiment, not a measurement of total universe size. No new observational fit, no claim of global topology, no gravity/dark-matter/dark-energy derivation, and no reopening of the earlier membrane branch are made.
+\end{abstract}
+
+\section*{Status and scope}
+This document is intended as a public technical note suitable for Zenodo deposition and written in an arXiv-like style. It consolidates V1024--V1037 and V1052--V1054 of the main cosmological/geometric branch. It deliberately excludes the separate space-navigation prototype branch, which may later be treated as a distinct software or educational toolkit.
+
+\paragraph{Boundary.} This is not a peer-reviewed cosmology paper and does not claim discovery of a new cosmological model. It is a structured audit of what can be stated safely from the project roadmap.
+
+\section{Motivation}
+The motivating intuition is simple: a sufficiently small local domain may appear flat even if the global geometry is curved, just as a small patch of a large sphere appears approximately planar. The project goal was not to replace general relativity or infer new physics, but to formalize the local-limit statement and determine which stronger claims must remain blocked.
+
+The earlier 2D/3D membrane routes are historical context only. They did not produce a defensible physical-gravity gate and are not reopened here. The present branch is instead a conservative geometry-and-horizon audit.
+
+\section{Geometric local-flatness core}
+Let $L$ be the scale of a local experiment, patch, or observational domain, and let $R$ denote an appropriate curvature scale. In normal coordinates around a point or along a local observer worldline, metric departures from the locally flat form enter at quadratic order in distance. Schematically,
+\begin{equation}
+    g_{\mu\nu}(x)=\eta_{\mu\nu}+O\!\left(\frac{x^2}{R^2}\right),
+\end{equation}
+so a local dimensionless correction at scale $L$ has the form
+\begin{equation}
+    \epsilon_{\rm local}\sim O\!\left(\frac{L^2}{R^2}\right).
+\end{equation}
+This is the main defensible result of the local-flatness branch: it is a geometric approximation statement, not a physical explanation of gravity or cosmological acceleration.
+
+\section{FLRW curvature dictionary}
+For an FLRW spatial curvature parameter $\Omega_k$, the curvature radius can be expressed as
+\begin{equation}
+    R_k = \frac{R_H}{\sqrt{|\Omega_k|}},\qquad R_H=\frac{c}{H_0},
+\end{equation}
+when $\Omega_k\ne 0$. Hence the local flatness scale for a selected tolerance $\epsilon$ can be represented conditionally as
+\begin{equation}
+    D_{\rm flat}(\epsilon)=R_k\sqrt{\epsilon}.
+\end{equation}
+If $\Omega_k=0$ exactly in the FLRW spatial-curvature sense, this curvature-threshold route formally diverges, but this does not decide global topology or total spatial size.
+
+Planck 2018 gives a standard reference parameter set for base $\Lambda$CDM, including $H_0=(67.4\pm0.5)\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$ and $\Omega_m=0.315\pm0.007$ \cite{planck2018}. Combining Planck with BAO gives curvature constraints compatible with spatial flatness; this supports the conservative use of large curvature radii but does not measure a total universe size.
+
+\section{Big Bang is not a spatial center}
+A key audit result is conceptual: the Big Bang cannot be used as the central point from which to measure the radius of the universe. In standard cosmology the Big Bang is not an explosion at one place in pre-existing empty space; it is a hot dense early state of the universe and an origin/limit of the cosmic expansion history. NASA education material emphasizes that the observable universe and the cosmic microwave background are understood as all-sky relics of the early universe rather than as light from a central explosion point \cite{nasa_gsfc_bigbang,nasa_wmap_overview}.
+
+Therefore the following inference is rejected:
+\begin{equation}
+    \text{Big Bang as spatial center} \quad\Rightarrow\quad \text{total universe radius}.
+\end{equation}
+The valid calculation is instead an observer-centered horizon calculation using $H(z)$.
+
+\section{Observable radius calculation}
+For a flat $\Lambda$CDM illustrative model,
+\begin{equation}
+    E(z)=\frac{H(z)}{H_0}=\sqrt{\Omega_r(1+z)^4+\Omega_m(1+z)^3+\Omega_\Lambda},
+\end{equation}
+with $\Omega_\Lambda=1-\Omega_m-\Omega_r$. The comoving particle horizon is
+\begin{equation}
+    R_{\rm obs}=c\int_0^\infty \frac{dz}{H(z)}.
+\end{equation}
+Equivalently, in scale factor $a$,
+\begin{equation}
+    R_{\rm obs}=R_H\int_0^1 \frac{da}{a^2E(a)}.
+\end{equation}
+This gives the present comoving radius of the region from which light signals could have reached us since the hot early universe. It is not a light-travel-time distance and it is not the total size of the universe. NASA gives the observable-universe diameter as about $92$ billion light-years in public outreach material \cite{nasa_how_big_space}.
+
+\begin{table}[h]
+\centering
+\caption{Illustrative flat-$\Lambda$CDM distance scales reproduced in V1052/V1055C. These are model calculations from declared parameters, not new fits.}
+\begin{tabular}{lrr}
+\toprule
+Quantity & Value & Unit\\
+\midrule
+$H_0$ & 67.4 & km s$^{-1}$ Mpc$^{-1}$\\
+$\Omega_m$ & 0.315 & dimensionless\\
+$\Omega_r$ & $9.2\times10^{-5}$ & dimensionless\\
+$\Omega_\Lambda$ & 0.684908 & dimensionless\\
+Hubble radius $c/H_0$ & 14.507 & Gly\\
+Integrated age & 13.791 & Gyr\\
+CMB comoving distance, $z=1089.9$ & 45.219 & Gly\\
+Observable radius / particle horizon & 46.133 & Gly\\
+Observable diameter & 92.267 & Gly\\
+Illustrative event horizon & 16.679 & Gly\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Observable versus total universe size}
+The observable radius is centered on the observer. It is not a boundary of the whole universe. Another observer far away has a different observable sphere, with partial overlap or no overlap depending on separation and cosmic history. Thus the project keeps three levels separate:
+\begin{align}
+    R_{\rm obs} &\approx 46.13\Gly &&\text{model-dependent observable radius},\\
+    R_k &= R_H/\sqrt{|\Omega_k|} &&\text{conditional curvature radius},\\
+    R_{\rm total} &\quad \text{unknown} &&\text{depends on global topology/extension}.
+\end{align}
+
+A flat universe need not be infinite unless additional assumptions such as simple connectedness are imposed. A compact flat topology, such as a 3-torus, is locally flat but globally finite. Searches for matched circles and other topology signatures can constrain some compact topologies, but absence of a detected topology does not provide a complete total-size measurement \cite{key2006topology}.
+
+\section{Horizon chaining}
+The user-proposed horizon-chaining intuition is retained as a useful thought experiment. Let our present comoving observable radius be
+\begin{equation}
+    R_{\rm obs}\simeq 46.13\Gly.
+\end{equation}
+Along one idealized line through us, our observable interval is
+\begin{equation}
+    [-R_{\rm obs}, +R_{\rm obs}],
+\end{equation}
+with diameter $2R_{\rm obs}\simeq92.27\Gly$. If ideal comoving observers existed near both ends of our observable interval and if the spatial manifold continued without topological wrap or boundary, each would have its own observable interval. The union along that one-dimensional line becomes schematically
+\begin{equation}
+    [-2R_{\rm obs}, +2R_{\rm obs}],
+\end{equation}
+with length
+\begin{equation}
+    4R_{\rm obs}\simeq184.53\Gly.
+\end{equation}
+This does not prove that the universe is at least $184.53\Gly$ across in every global sense. It demonstrates instead that the edge of our observable universe is not automatically the edge of the universe. Iterating the argument suggests the possibility of arbitrarily large or infinite extension, but only under assumptions about continuation and topology that are not observed directly.
+
+\section{Claim matrix}
+\begin{longtable}{p{0.34\linewidth}p{0.18\linewidth}p{0.38\linewidth}}
+\caption{Main claim boundary.}\\
+\toprule
+Claim & Status & Public wording\\
+\midrule
+\endfirsthead
+\toprule
+Claim & Status & Public wording\\
+\midrule
+\endhead
+Local flatness scales as $O((L/R)^2)$ & allowed & Geometric local-limit statement.\\
+$R_k=R_H/\sqrt{|\Omega_k|}$ & allowed & Standard FLRW curvature dictionary when $\Omega_k\ne0$.\\
+Observable radius from $H(z)$ & allowed as model calculation & Illustrative flat-$\Lambda$CDM calculation; no fit.\\
+Observable diameter around $92\Gly$ & allowed & Observable universe only.\\
+Big Bang as spatial center & rejected & No spatial center is used or inferred.\\
+Total universe size measured & rejected & Unknown without global topology/extension assumptions.\\
+Flat implies infinite & rejected & Flat compact topologies remain logically possible.\\
+Horizon chaining equals total size & rejected & Conditional thought experiment only.\\
+Gravity/DM/DE derivation & rejected & No physical-gravity gate opened.\\
+\bottomrule
+\end{longtable}
+
+\section{Roadmap coverage}
+\begin{itemize}
+    \item V1024--V1026: preregistration, normal-coordinate derivation, FLRW curvature dictionary.
+    \item V1027--V1032: observable matrix, scale hierarchy, public cleanup, geometry/observation audits.
+    \item V1033: first-cycle recovery and branch separation.
+    \item V1034--V1037: observable versus total universe size, horizon definitions, conditional size scenarios, topology/compactness preregistration.
+    \item V1052: Big Bang not-center and observable-radius calculation audit.
+    \item V1054: horizon chaining retained as a conditional thought experiment; navigation content excluded from this synthesis.
+\end{itemize}
+
+\section{Conclusion}
+The safe outcome of the roadmap is a conservative geometric thesis: local flatness is expected when $L\ll R$, with corrections of order $O((L/R)^2)$; the observable universe has a model-dependent present comoving radius of about $46\Gly$ and diameter about $92\Gly$; the Big Bang is not a spatial center; and horizon chaining shows why the observable boundary is not the total boundary. The total universe size remains unknown. No new gravity, dark matter, dark energy, topology, or membrane claim is made.
+
+\section*{Reproducibility note}
+The package includes the script \texttt{src/v1055b\_observable\_radius\_calculation.py}, numeric output table \texttt{tables/v1055b\_observable\_radius\_values.csv}, lineage index, claim matrix, status JSON, and SHA256 manifest.
+
+\begin{thebibliography}{9}
+\bibitem{planck2018}
+Planck Collaboration, ``Planck 2018 results. VI. Cosmological parameters,'' \emph{Astronomy \& Astrophysics} 641, A6 (2020). Also arXiv:1807.06209. \url{https://arxiv.org/abs/1807.06209}
+
+\bibitem{nasa_how_big_space}
+NASA, ``How Big is Space? We Asked a NASA Expert,'' NASA Science / Astrophysics outreach page. \url{https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/}
+
+\bibitem{nasa_gsfc_bigbang}
+NASA GSFC, ``Ask an Astrophysicist - Cosmology,'' Imagine the Universe! \url{https://imagine.gsfc.nasa.gov/ask_astro/cosmology.html}
+
+\bibitem{nasa_wmap_overview}
+NASA, ``WMAP Overview,'' NASA Science. \url{https://science.nasa.gov/mission/wmap/wmap-overview/}
+
+\bibitem{davis2004}
+T. M. Davis and C. H. Lineweaver, ``Expanding Confusion: common misconceptions of cosmological horizons and the superluminal expansion of the Universe,'' \emph{Publications of the Astronomical Society of Australia} 21, 97--109 (2004). arXiv:astro-ph/0310808.
+
+\bibitem{key2006topology}
+J. S. Key, N. J. Cornish, D. N. Spergel, and G. D. Starkman, ``Extending the WMAP Bound on the Size of the Universe,'' arXiv:astro-ph/0604616 (2006).
+\end{thebibliography}
+\end{document}

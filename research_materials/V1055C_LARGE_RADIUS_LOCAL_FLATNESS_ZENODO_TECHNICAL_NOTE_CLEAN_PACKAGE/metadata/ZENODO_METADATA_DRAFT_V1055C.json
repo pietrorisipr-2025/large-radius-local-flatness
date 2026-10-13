@@ -1,0 +1,33 @@
+{
+  "title": "Large-Radius Local Flatness Hypothesis: Observable Radius, Curvature Limits, and Horizon Chaining",
+  "upload_type_recommendation": "Publication / Technical note or Report",
+  "creators": [
+    {
+      "name": "Risi, Pietro",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "v1.0.0",
+  "publication_date": "2026-07-08",
+  "language": "eng",
+  "keywords": [
+    "cosmology",
+    "FLRW",
+    "local flatness",
+    "observable universe",
+    "curvature radius",
+    "horizon",
+    "topology",
+    "theoretical audit",
+    "conceptual clarification"
+  ],
+  "license_recommendation": "CC-BY-4.0",
+  "related_identifiers_recommendation": [
+    {
+      "identifier": "10.5281/zenodo.21236479",
+      "relation": "References or Continues / IsSupplementTo, depending on the final Zenodo form options",
+      "note": "Previous GTE 3D Medium publication; not the same record/version family."
+    }
+  ],
+  "description_draft": "This technical note consolidates the Large-Radius Local Flatness branch of the Geometria e tempo emergente project. It formalizes a conservative geometric statement: local measurements can be insensitive to global curvature when the local scale L is much smaller than a curvature or horizon scale R, with corrections of order O((L/R)^2). The note separates local flatness, observational flatness, global flatness, topology, observable radius, and total universe size. A model-dependent flat-Lambda-CDM calculation gives an illustrative observable radius of about 46.13 Gly and observable diameter of about 92.27 Gly for declared Planck-like parameters. The Big Bang is rejected as a spatial center, and horizon chaining is retained only as a conditional thought experiment. The work does not propose a new gravity theory, does not claim a measurement of the total size of the Universe, does not infer global topology, and does not derive dark matter or dark energy."
+}

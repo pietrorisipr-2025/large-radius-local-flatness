@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the original Zenodo record and version used."
+title: "Large-Radius Local Flatness Hypothesis: Observable Radius, Curvature Limits, and Horizon Chaining"
+authors:
+  - family-names: "Risi"
+    given-names: "Pietro"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21268958"
+    description: "Original Zenodo record DOI"
+url: "https://zenodo.org/records/21268958"

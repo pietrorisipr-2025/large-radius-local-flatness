@@ -1,0 +1,12 @@
+/mnt/data/V1055C_LARGE_RADIUS_LOCAL_FLATNESS_ZENODO_TECHNICAL_NOTE_CLEAN_PACKAGE/tables/v1055b_observable_radius_values.csv
+H0: 67.4 km/s/Mpc
+Omega_m: 0.315 dimensionless
+Omega_r: 9.2e-05 dimensionless
+Omega_Lambda: 0.684908 dimensionless
+Hubble radius c/H0: 14.5073029916 Gly
+Integrated age: 13.7906925241 Gyr
+CMB comoving distance z=1089.9: 45.2194288186 Gly
+Observable radius / particle horizon: 46.133255413 Gly
+Observable diameter: 92.2665108259 Gly
+Event horizon illustrative: 16.6793504874 Gly
+Horizon-chain one-dimensional union: 184.533021652 Gly
